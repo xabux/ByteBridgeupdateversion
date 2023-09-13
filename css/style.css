@@ -142,12 +142,13 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .btn-solid-border {
   border: 2px solid #00ADB5;
-  background: transparent;
-  color: #242424;
+  background: #00ADB5;
+  color: white;
 }
 .btn-solid-border:hover {
-  border: 2px solid #00ADB5;
-  background: #00ADB5;
+  border: 2px solid white;
+  background: #393e46;
+  color: white;
 }
 
 .btn-transparent {

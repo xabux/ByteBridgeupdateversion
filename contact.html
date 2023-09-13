@@ -42,97 +42,44 @@
 <body>
 
 <!-- Header Start -->
-<header class="navigation">
-  <div class="header-top ">
-    <div class="container">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-lg-2 col-md-4">
-          <div class="header-top-socials text-center text-lg-left text-md-left">
-            <a href="https://www.facebook.com/themefisher" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/themefisher" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/themefisher/" aria-label="github"><i class="fab fa-github"></i></a>
-          </div>
-        </div>
-        <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
-          <div class="header-top-info mb-2 mb-md-0">
-            <a href="tel:+23-345-67890">Call Us : <span>+23-345-67890</span></a>
-            <a href="mailto:support@gmail.com"><i class="fas fa-envelope mr-2"></i><span>support@gmail.com</span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo2.svg" alt="bytebridge"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div id="navbar">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <nav class="navbar navbar-expand-lg px-0 py-4">
-            <a class="navbar-brand" href="index.html">
-              Mega<span>kit.</span>
-            </a>
-      
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
-              aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="fa fa-bars"></span>
-            </button>
-      
-            <div class="collapse navbar-collapse text-center" id="navbarsExample09">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item @@home">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown @@about">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i class="fas fa-chevron-down small"></i></a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                    <li><a class="dropdown-item @@company" href="about.html">Our company</a></li>
-                    <li><a class="dropdown-item @@pricing" href="pricing.html">Pricing</a></li>
-                    
-                    <li class="dropdown dropdown-submenu dropright">
-                      <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-            
-                      <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                        <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                        <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item @@service"><a class="nav-link" href="service.html">Services</a></li>
-                <li class="nav-item @@project"><a class="nav-link" href="project.html">Portfolio</a></li>
-                <li class="nav-item dropdown @@blog">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="fas fa-chevron-down small"></i></a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                    <li><a class="dropdown-item @@blogGrid" href="blog-grid.html">Blog Grid</a></li>
-                    <li><a class="dropdown-item @@blogSidebar" href="blog-sidebar.html">Blog with Sidebar</a></li>
-                    <li><a class="dropdown-item @@blogSingle" href="blog-single.html">Blog Single</a></li>
-      
-                    <li class="dropdown dropdown-submenu dropleft">
-                      <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-            
-                      <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                        <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                        <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
-              </ul>
-      
-              <div class="my-2 my-md-0 ml-lg-4 text-center">
-                <a href="contact.html" class="btn btn-solid-border btn-round-full">Get a Quote</a>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="project.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="my-2 my-md-0 ml-lg-4 text-center">
+        <a id="navbutton" href="contact.html" class="btn btn-solid-border btn-round-full">Get a Quote</a>
     </div>
-  </div>
+  </nav>
 </header>
 <!-- Header Close -->
 
 <section class="page-title bg-1">
+  <br><br><br>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -152,9 +99,11 @@
 
 <!-- contact form start -->
 <section class="contact-form-wrap section">
+  
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-12 col-sm-12">
+        
 				<form id="contact-form" class="contact__form" method="post" action="index.html">
 					<h3 class="text-md mb-4">Contact Form</h3>
 					<div class="form-group">
@@ -205,7 +154,7 @@
 </section>
 
 <div class="google-map">
-	<div id="map" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/marker.png" data-marker-name="Megakit"></div>
+	<div id="map" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/marker.png" data-marker-name="ByteBridge"></div>
 </div>
 
 <footer class="footer section">
@@ -238,10 +187,14 @@
       <div class="col-lg-3 col-md-6 col-sm-6 mx-auto">
         <div class="widget">
           <h4 class="text-capitalize mb-4">Subscribe Us</h4>
-          <p>Subscribe to get latest news article and resources </p>
+          <p>Subscribe to get latest news article and resources</p>
 
           <form action="#" class="sub-form">
-            <input type="text" class="form-control mb-3" placeholder="Subscribe Now ...">
+            <input
+              type="text"
+              class="form-control mb-3"
+              placeholder="Subscribe Now ..."
+            />
             <a href="#" class="btn btn-main btn-small">subscribe</a>
           </form>
         </div>
@@ -250,10 +203,16 @@
       <div class="col-lg-3 col-sm-6">
         <div class="widget">
           <div class="logo mb-4">
-            <h3>Mega<span>kit.</span></h3>
+            <h3>Byte<span>Bridge.</span></h3>
           </div>
-          <h6><a href="mailto:support@gmail.com">Support@megakit.com</a></h6>
-          <a href="tel:+23-345-67890"><span class="text-color h4">+23-456-6588</span></a>
+          <h6>
+            <a href="mailto:contact.us@bytebridge.services"
+              >contact.us@bytebridge.services</a
+            >
+          </h6>
+          <a href="tel:+234 810 780 6869"
+            ><span class="text-color h4">+234 810 780 6869</span></a
+          >
         </div>
       </div>
     </div>
@@ -262,15 +221,23 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="copyright">
-            Copyright &copy; 2020, Designed &amp; Developed by <a href="https://themefisher.com/"
-              >Themefisher</a>
+            Copyright &copy; 2020, Designed &amp; Developed by
+            <a href="https://bytebridge.services/">ByteBridge</a>
           </div>
         </div>
         <div class="col-lg-6 text-left text-lg-right">
           <ul class="list-inline footer-socials">
-            <li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="fab fa-facebook-f mr-2"></i>Facebook</a></li>
-            <li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="fab fa-twitter mr-2"></i>Twitter</a></li>
-            <li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="fab fa-pinterest-p mr-2 "></i>Pinterest</a></li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/bytebridge"
+                ><i class="fab fa-facebook-f mr-2"></i>Facebook</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/bytebridge"
+                ><i class="fab fa-twitter mr-2"></i>Twitter</a
+              >
+            </li>
+            
           </ul>
         </div>
       </div>
